@@ -18,6 +18,7 @@ def random_row(board):
 def random_col(board):
     return random.randint(0, len(board[0]) - 1)
 
+
 ship_row = random_row(board)
 ship_col = random_col(board)
 print(ship_row)
